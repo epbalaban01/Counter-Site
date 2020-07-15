@@ -1,0 +1,90 @@
+body {
+	
+	font-family:georgia,arial,sans-serif;
+	background-color:#A09386;
+}
+
+.ortala {
+	width:800px;
+	background-color:#8B8078;
+	margin:10px auto;
+	padding:10px 10px;
+}
+
+.baslik {
+	background-image:url(head.jpg);
+	background-repeat:no-repeat;
+	height:98px;
+	position:relative;
+	border-bottom:5px solid #666;
+}
+
+.baslik h1 {
+	position:absolute;
+	top:10px;
+	left:350px;
+	color:#000;
+}
+
+.menu {
+	float:left;
+	width:200px;
+}
+
+.menu ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	
+}
+
+.menu ul li:first-child {
+	background-color:#000;
+}
+
+
+.menu ul li:last-child {
+	
+	border-bottom:none;
+}
+
+.menu ul li {
+	border-bottom:1px solid #000;
+}
+
+.menu ul li a {
+	text-decoration:none;
+	color:#000;
+	display:block;
+	background-color:#A09386;
+	padding:5px 0;
+}
+.menu ul li a:hover {
+	background-color:#333;
+	line-height:15px;
+	color:#990;
+}
+
+
+.icerik {
+	float:left;
+	width:560px;
+	background-color:#8B8078;
+	padding:5px 10px;
+	
+}
+
+.altbilgi {
+	background-color:#A09386;
+	
+}
+
+.altbilgi p {
+	text-align:center;
+	color:#676767;
+}
+
+
+.temizle {
+	clear:both;
+}
